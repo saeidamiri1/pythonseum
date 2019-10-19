@@ -10,7 +10,7 @@ tagline: Python
     {% for post in site.posts %}
       <li>
         <h2>
-          <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+          <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
         </h2>
         <span class="post-meta">{{ post.author }}</span>
       </li>
