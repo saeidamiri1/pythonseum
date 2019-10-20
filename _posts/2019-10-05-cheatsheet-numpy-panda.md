@@ -5,8 +5,8 @@ description: A brief of Useful functions of Numpy and Panda
 date: 2019-10-05
 author: Saeid Amiri
 published: true
-tags: Python Numpy Pandas
-categories: [blog]
+tags: Python Numpy Pandas Cheat-sheet
+categories: Numpy Pandas Cheat-sheet
 comments: false
 ---
 

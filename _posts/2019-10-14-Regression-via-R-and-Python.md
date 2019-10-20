@@ -6,7 +6,7 @@ date: 2019-10-14
 author: Saeid Amiri
 published: true
 tags: Python R Regression
-categories: [blog]
+categories: Fitting-Model
 comments: false
 ---
 

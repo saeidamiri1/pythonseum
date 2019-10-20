@@ -6,7 +6,7 @@ date: 2019-05-08
 author: Saeid Amiri
 published: true
 tags: R Python Matlab
-categories: [blog]
+categories: Cheat-sheet 
 comments: false
 ---
 
