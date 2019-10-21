@@ -5,7 +5,7 @@ description: A brief cheatsheet for R, Python, and Matlab
 date: 2019-05-08
 author: Saeid Amiri
 published: true
-tags: R Python Matlab
+tags: R Python Matlab  Cheat-sheet
 categories: Cheat-sheet 
 comments: false
 ---
