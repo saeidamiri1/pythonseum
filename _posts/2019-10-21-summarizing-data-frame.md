@@ -10,12 +10,33 @@ categories: Pandas
 comments: false
 ---
 ## Summarizing data-frame
-Although `.describe` can give a summary of variables,  more specific summery of variables (columns) can be extracted, see below.
+To see the type, the information and summary of variables in the data-frame, use ```.dtypes```,  ```.describe()```, and   ```.info()```. 
 
 ```
 source ="https://storage.googleapis.com/mledu-datasets/california_housing_train.csv"
 CHT = pd.read_csv(source, sep=",")
+# show the type of variables
+CHT.dtypes
+# generate summary
 CHT.describe()
+CHT.info()
+```
+
+It is easy to find the duplicates in data-frame  and  drop them, see below.
+```
+CHT.duplicated()
+CHT.drop_duplicates()
+```
+To check the duplication in variables, specify their names as well, 
+```
+CHT.duplicated(['longitude'])
+CHT.drop_duplicates(['longitude'], keep='last')
+CHT.index.duplicated()
+```
+
+Although `.describe` can give a summary of variables,  more specific summery of variables (columns) can be extracted, see below.
+
+```
 CHT.head()
 CHT.count()
 CHT[CHT.iloc[:,1]<34].nunique()
