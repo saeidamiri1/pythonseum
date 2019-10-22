@@ -4,13 +4,13 @@ title: Merging data-frame
 description: Merging data-frame
 date: 2019-10-21
 author: Saeid Amiri
-published: false
+published: true
 tags: Pandas columns concat DataFrame iloc loc merge 
 categories: Pandas
 comments: false
 ---
 
-# Merging data-frames
+## Merging data-frames
 Panada is very useful for merging dataset; to merging data consider the following data sets, where 'id1' and 'id2' include the ids of data.
 
 ```
