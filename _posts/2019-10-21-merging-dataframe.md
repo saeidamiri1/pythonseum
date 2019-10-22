@@ -5,7 +5,7 @@ description: Merging data-frame
 date: 2019-10-21
 author: Saeid Amiri
 published: false
-tags: pandas columns concat DataFrame iloc loc merge 
+tags: Pandas columns concat DataFrame iloc loc merge 
 categories: Pandas
 comments: false
 ---
