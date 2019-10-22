@@ -83,4 +83,9 @@ CHT['famlev'].replace('L','Low').replace('M','Middle').replace('H','High')
 CHT.drop('longitude',axis=1, inplace=True)
 ```
 
-Note: the argument ```inplace=True``` apply the change on the original data.  
+Note: the argument ```inplace=True``` apply the change on the original data.
+
+Simple operation using the list comprehension can be done on data-frame as well.
+```
+CHT['NN']=[0 for x in CHT['total_rooms'] if x<100]
+CHT['size']=['small' if x<100  else 'big'  for x in CHT['total_rooms']]

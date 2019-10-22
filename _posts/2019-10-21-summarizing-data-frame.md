@@ -22,6 +22,16 @@ CHT.describe()
 CHT.info()
 ```
 
+
+Beside the function print, pandas can show the first and the last part of data, using ```.head()``` and `.tail()`. By passing a number in the parenthesis, one can specify the output.
+
+```
+CHT.head(10)
+CHT.tail(10)
+CHT.sort_values(by='housing_median_age', ascending=False).head(3)
+CHT.columns
+```
+
 It is easy to find the duplicates in data-frame  and  drop them, see below.
 ```
 CHT.duplicated()
@@ -37,7 +47,6 @@ CHT.index.duplicated()
 Although `.describe` can give a summary of variables,  more specific summery of variables (columns) can be extracted, see below.
 
 ```
-CHT.head()
 CHT.count()
 CHT[CHT.iloc[:,1]<34].nunique()
 ```

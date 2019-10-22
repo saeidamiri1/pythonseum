@@ -35,3 +35,12 @@ To create an empty data-frame, run the following
 df1=pd.DataFrame(columns = ['population', 'median_income'])
 df2=pd.DataFrame()
 ```
+
+Dimension of data-frame is 2 which can be seen via ```.ndim ```, the number of rows and columns can be obtained using   ```.shape```.  
+
+```
+df.ndim
+df.shape
+df.shape[0]
+df.shape[1]
+```
