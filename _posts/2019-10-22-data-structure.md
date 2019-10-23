@@ -4,18 +4,17 @@ title: Data Structure
 description: Data Structure
 date: 2019-10-22
 author: Saeid Amiri
-published: false
+published: true
 tags: Numpy List Tuple Dictionary Arrays Class set
 categories: Numpy
 comments: false
 ---
 
-
 ## Data Structures
 Python provides a variety of useful data structures, such as lists, sets, and dictionaries, and a new structure define by programmer which called class.
 
 ### list
-A list is a sequence of values that is assigned to the variable. The values in a list are called elements or sometimes items. The value of list can be accessed using square brackets.
+A list is a sequence of values that is assigned to the variable. The values in a list are called elements or sometimes items. The value of list can be accessed using the square brackets.
 
 ```
 weights=[20,15,19,21,16] 
@@ -24,7 +23,7 @@ colors=['red','blue','green','black','white']
 colors
 ```
 
-Use the square brackets, [], to index it.
+Use the square brackets ([]) to index it.
 
 ```
 colors[1:3]
@@ -94,7 +93,7 @@ TypeError: 'tuple' object does not support item assignment
 A brief comparison of mutable and immutable and application can be found [here](https://www.afternerd.com/blog/difference-between-list-tuple/).
 
 
-### Set 
+### Set
 Set is a collection of elements without order and index, the same as defined in Algebra. Duplication of elements in set does not make sense, so Python drops the duplication automatically. Use the curly bracket ({) to create the set:
 ```
 colors={'red','blue','green','black','white'}
@@ -130,7 +129,7 @@ sorted(colors)
 ### Dictionary
 Dictionary is a generalized form of list, unlike the list its indices can be any type of values. A dictionary maps a set of objects (keys) to another set of objects (values).
 
-Dictionary includes key and items, the key is actually indices and item is the values. A Python dictionary is a mapping of unique keys to values. Use the curly brackets to construct the dictionary, separate the key and value with colons (:) and with commas (,)between each pair. Keys must be quoted. We can print out the dictionary by printing the reference to it.
+Dictionary includes key and items, the key is actually indices and item is the values. A Python dictionary is a mapping of unique keys to values. Use the curly brackets to construct the dictionary, separate the key and value with colons (:) and with commas (,) between each pair. Keys must be quoted. We can print out the dictionary by printing the reference to it.
 
 ```
 prices = {
@@ -192,7 +191,7 @@ team = [
     },
 ```
 
-### Arrays
+### Array
 Numpy's array is a generalization of list, it is more appropriate for the computation.  
 
 ```
@@ -246,14 +245,14 @@ weight2[1:,1:]
 weight2[1:,2:]
 ```
 
-To change the shape
+To change the shape, use `reshape`:
 ```
 weight2.reshape((8, 3))
 ```
 
 
 ### Class
-Python  is an object-oriented programming language, and has strong tools working with different objects. If the structure is not defined, one can create own object; the class can be used to present new structure for your data or change the existing one. It is very useful to tie a certain data and functions together. 
+Python is an object-oriented programming language, and has strong tools working with different objects. If the structure is not defined, one can create own object; the class can be used to present new structure for your data or change the existing one. It is very useful to tie a certain data and functions together.
 
 ```
 class body(object):
