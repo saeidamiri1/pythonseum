@@ -2,7 +2,7 @@
 layout: post
 title: Data control structure
 description: Data control structure
-date: 2019-10-24
+date: 2019-11-01
 author: Saeid Amiri
 published: true
 tags: True False Boolean-value ~ f-string Try-except
