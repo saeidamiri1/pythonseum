@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Pipline
-description: How to run pipeline on data-frame
+title: Data-frame
+description:  Data-frame
 date: 2019-10-21
 author: Saeid Amiri
 published: true
-tags: Pandas Pipe
+tags: Pandas Pipe ndim shape DataFrame set_index
 categories: Pandas
 comments: false
 ---

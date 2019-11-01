@@ -10,7 +10,7 @@ comments: false
 ---
 
 ## Adding new column to data-frame
-A column can easily be added to data-frame 
+A column can easily be added to data-frame
 ```
 df0=pd.DataFrame([38,40,25,33])
 df['Ave_hour']=df0

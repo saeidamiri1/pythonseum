@@ -6,7 +6,7 @@ date: 2019-10-22
 author: Saeid Amiri
 published: true
 tags: Numpy List Tuple Dictionary Arrays Class set
-categories: Numpy
+categories: Numpy Data Structures
 comments: false
 ---
 
