@@ -56,7 +56,7 @@ plt.ylabel('f(x)')
 plt.show(block=False)
 ```
  
-<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-gradient-descent-1.png" width="350" height="300" />
+<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-approximations-1.png" width="350" height="300" />
 
 
 To see how the algorithm works, we can add plot the gradients along running the iterations:
@@ -93,7 +93,7 @@ plt.xlabel('x')
 plt.ylabel('f(x)')
 plt.show(block=False)
 ```
-<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-gradient-descent-2.png" width="350" height="300" />
+<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-approximations-2.png" width="350" height="300" />
 
 ## Gradient Descent
 Gradient Descent is a numerical method to find the minimum value of a differentiable function.  The local minimum can be obtained using solving 
@@ -140,7 +140,7 @@ plt.ylabel('f(x)')
 plt.show(block=False)
 ```
 
-<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-gradient-descent-3.png" width="350" height="300" />
+<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-approximations-3.png" width="350" height="300" />
 
 
 **[⬆ back to top](#contents)**
