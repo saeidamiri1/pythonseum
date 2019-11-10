@@ -4,7 +4,7 @@ title: Gradient Descent
 description: Gradient Descent
 date: 2019-11-02
 author: Saeid Amiri
-published: false
+published: true
 tags: Gradient-Descent Newton-Raphson
 categories: Algorithm
 comments: false
