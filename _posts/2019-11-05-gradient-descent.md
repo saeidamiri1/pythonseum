@@ -53,8 +53,8 @@ plt.xlabel('x')
 plt.ylabel('f(x)')
 plt.show(block=False)
 ```
-
-![picture](https://github.com/saeidamiri1/pythonseum/blob/master/public/image/Figure-2019-11-05-gradient-descent-1.png)  
+ 
+![picture](https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-gradient-descent-1.png)
 
 
 To see how the algorithm works, we can add plot the gradients along running the iterations:
