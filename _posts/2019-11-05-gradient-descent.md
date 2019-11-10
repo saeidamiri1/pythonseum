@@ -27,7 +27,8 @@ Given `x_s`, a starting point, we get closer to the root of function by solving
 
 The simple and plain algorithm of Newton-Raphosn is given in the below
 
-![picture](/Volumes/F/for_my_website/pythonseum/public/image/Figure-2019-11-05-newton-raphson-algorithm.png)  
+![picture](https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-newton-raphson-algorithm.png)
+
 
 Since we should run the iteration for many time; it is better to replace `for` with `while` loop. In the below, we present the algorithm in Python. 
 
@@ -92,6 +93,8 @@ plt.ylabel('f(x)')
 plt.show(block=False)
 ```
 
+![picture](https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-gradient-descent-2.png)
+
 ## Gradient Descent
 Gradient Descent is a numerical method to find the minimum value of a differentiable function.  The local minimum can be obtained using solving 
 
@@ -137,7 +140,7 @@ plt.ylabel('f(x)')
 plt.show(block=False)
 ```
 
-![picture](/Volumes/F/for_my_website/pythonseum/public/image/Figure-2019-11-05-gradient-descent-2.png) 
+![picture](https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-gradient-descent-3.png)
 
 
 **[⬆ back to top](#contents)**
