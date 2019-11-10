@@ -28,7 +28,7 @@ Given `x_s`, a starting point, we get closer to the root of function by solving
 The simple and plain algorithm of Newton-Raphosn is given in the below
 
 
-<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-newton-raphson-algorithm.png" width="250" height="200" />
+<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-newton-raphson-algorithm.png" width="350" height="300" />
 
    
 Since we should run the iteration for many time; it is better to replace `for` with `while` loop. In the below, we present the algorithm in Python. 
@@ -56,7 +56,7 @@ plt.ylabel('f(x)')
 plt.show(block=False)
 ```
  
-<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-gradient-descent-1.png" width="250" height="200" />
+<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-gradient-descent-1.png" width="350" height="300" />
 
 
 To see how the algorithm works, we can add plot the gradients along running the iterations:
@@ -93,7 +93,7 @@ plt.xlabel('x')
 plt.ylabel('f(x)')
 plt.show(block=False)
 ```
-<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-gradient-descent-2.png" width="250" height="200" />
+<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-gradient-descent-2.png" width="350" height="300" />
 
 ## Gradient Descent
 Gradient Descent is a numerical method to find the minimum value of a differentiable function.  The local minimum can be obtained using solving 
@@ -140,7 +140,7 @@ plt.ylabel('f(x)')
 plt.show(block=False)
 ```
 
-![picture](https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-gradient-descent-3.png)
+<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-gradient-descent-3.png" width="350" height="300" />
 
 
 **[⬆ back to top](#contents)**
