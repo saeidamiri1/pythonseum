@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Gradient Descent
-description: Gradient Descent
+title: Approximation
+description: Approximation using Newton-Raphson and Gradient Descent
 date: 2019-11-02
 author: Saeid Amiri
-published: true
+published: false
 tags: Gradient-Descent Newton-Raphson
 categories: Algorithm
 comments: false
 ---
 
-## Optimization algorithem
-Python is equipped with strong tools for the repeat of some commands or produce sequence number.  
+## Approximation??????
 
 ## Contents
 - [Newton-Raphson](#newton-raphson)
