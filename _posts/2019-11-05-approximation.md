@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Approximation
-description: Approximation using Newton-Raphson and Gradient Descent
+title: Optimization 
+description: Optimization using Newton-Raphson and Gradient Descent
 date: 2019-11-02
 author: Saeid Amiri
-published: false
+published: true
 tags: Gradient-Descent Newton-Raphson
 categories: Algorithm
 comments: false
 ---
 
-## Approximation??????
+## Optimization
 
 ## Contents
 - [Newton-Raphson](#newton-raphson)
@@ -18,27 +18,25 @@ comments: false
 
 
 ## Newton-Raphson method
-The Newton-Raphson algorithm is one of old iterative algorithm to approximately find the roots of a real-valued function;
-![E_0=mc^2](https://latex.codecogs.com/svg.latex?f(x)=0).
-The idea behind of it is based on the simple linear approximation.
-Given `x_s`, a starting point, we get closer to the root of function by solving  
-![E_0=mc^2](https://latex.codecogs.com/svg.latex?x_{n+1}=x_n-%20\frac{f(x_n)}{\partial%20f(x_{n})}).
+The Newton-Raphson algorithm is one of the old iterative algorithm to approximately find the roots of a real-valued function;
+![eq1](https://latex.codecogs.com/svg.latex?f(x)=0). The idea behind of it is based on the simple linear approximation.
+Given `x_0`, a starting point, by solving the root of function by solving  
+![eq2](https://latex.codecogs.com/svg.latex?x_{n+1}=x_n-%20\frac{f(x_n)}{\partial%20f(x_{n})}), we get closer to the solution.
 
 The simple and plain algorithm of Newton-Raphosn is given in the below
 
-
 <img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-newton-raphson-algorithm.png" width="350" height="300" />
-
    
 Since we should run the iteration for many time; it is better to replace `for` with `while` loop. In the below, we present the algorithm in Python. 
 
-To write the algorithm in code, we consider[E_0=mc^2](https://latex.codecogs.com/svg.latex?f(x)=x^4-3x^2+2) that is also used in [Wikipedia](https://en.wikipedia.org/wiki/Gradient_descent).
+To write the algorithm in code, we consider ![E_0=mc^2](https://latex.codecogs.com/svg.latex?f(x)=x^4-3x^2+2) that is also used in [Wikipedia](https://en.wikipedia.org/wiki/Gradient_descent).
 
 
 Define the function
 ```
 def f(x):
     return x**4 - 3 * x**3+2
+
 def df(x):
     return 4 * x**3 - 9 * x**2
 ```
@@ -58,7 +56,7 @@ plt.show(block=False)
 <img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-approximations-1.png" width="350" height="300" />
 
 
-To see how the algorithm works, we can add plot the gradients along running the iterations:
+To see how the algorithm works, we can add the plot pf gradients along running the iterations:
 
 ```
 import matplotlib as mpl
@@ -95,14 +93,13 @@ plt.show(block=False)
 <img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-approximations-2.png" width="350" height="300" />
 
 ## Gradient Descent
-Gradient Descent is a numerical method to find the minimum value of a differentiable function.  The local minimum can be obtained using solving 
+Gradient Descent is variant of Newton-Raphson that can be used to find the minimum value of a differentiable function. The local minimum can be obtained by solving 
 
-![E_0=mc^2](https://latex.codecogs.com/svg.latex?x_{n+1}=x_n-\gamma%20\frac{\partial%20f}{\partial%20x_{n}})
+![eq3](https://latex.codecogs.com/svg.latex?x_{n+1}=x_n-\gamma%20\frac{\partial%20f}{\partial%20x_{n}})
 
-where ![E_0=mc^2](https://latex.codecogs.com/svg.latex?\gamma) is called the step size or learning rate, see [Wikipedia](https://en.wikipedia.org/wiki/Gradient_descent).  Obviously, the criterion function is different from the Newton-Raphson Algorithm. 
+where ![eq4](https://latex.codecogs.com/svg.latex?\gamma) is called the step size or learning rate, see [Wikipedia](https://en.wikipedia.org/wiki/Gradient_descent).  Obviously, the criterion function is different from the Newton-Raphson Algorithm. 
 
-To write a simple code to find the minimum using the Gradient Descent consider ![E_0=mc^2](https://latex.codecogs.com/svg.latex?f(x)=x^4-3x^2+2) that is already used for exoalning the Newton-Raphosn. 
-
+To write a simple code to find the minimum using the Gradient Descent consider ![eq5](https://latex.codecogs.com/svg.latex?f(x)=x^4-3x^2+2) that is already used for explaining the Newton-Raphson. 
 
 The plot of gradient can be obtained using running the following script:
 ```
