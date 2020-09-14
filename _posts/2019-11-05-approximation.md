@@ -25,7 +25,7 @@ Given `x_0`, a starting point, by solving the root of function by solving
 
 The simple and plain algorithm of Newton-Raphosn is given in the below
 
-<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-newton-raphson-algorithm.png" width="350" height="300" />
+<img src="https://raw.githubusercontent.com/saeidamiri1/myblog/master/public/image/Figure-2019-11-05-newton-raphson-algorithm.png" width="350" height="300" />
    
 Since we should run the iteration for many time; it is better to replace `for` with `while` loop. In the below, we present the algorithm in Python. 
 
@@ -53,7 +53,7 @@ plt.ylabel('f(x)')
 plt.show(block=False)
 ```
  
-<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-approximations-1.png" width="350" height="300" />
+<img src="https://raw.githubusercontent.com/saeidamiri1/myblog/master/public/image/Figure-2019-11-05-approximations-1.png" width="350" height="300" />
 
 
 To see how the algorithm works, we can add the plot pf gradients along running the iterations:
@@ -90,7 +90,7 @@ plt.xlabel('x')
 plt.ylabel('f(x)')
 plt.show(block=False)
 ```
-<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-approximations-2.png" width="350" height="300" />
+<img src="https://raw.githubusercontent.com/saeidamiri1/myblog/master/public/image/Figure-2019-11-05-approximations-2.png" width="350" height="300" />
 
 ## Gradient Descent
 Gradient Descent is variant of Newton-Raphson that can be used to find the minimum value of a differentiable function. The local minimum can be obtained by solving 
@@ -136,7 +136,7 @@ plt.ylabel('f(x)')
 plt.show(block=False)
 ```
 
-<img src="https://raw.githubusercontent.com/saeidamiri1/pythonseum/master/public/image/Figure-2019-11-05-approximations-3.png" width="350" height="300" />
+<img src="https://raw.githubusercontent.com/saeidamiri1/myblog/master/public/image/Figure-2019-11-05-approximations-3.png" width="350" height="300" />
 
 
 **[⬆ back to top](#contents)**

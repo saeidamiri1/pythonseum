@@ -56,7 +56,7 @@ Traceback (most recent call last):
 TypeError: '<' not supported between instances of 'list' and 'int'
 ```
 
-Obviously ``weight<74`` does not work for the list, To run it change the data to the [array](https://saeidamiri1.github.io/pythonseum/numpy/2019/10/22/data-structure) provided in Numpy:  
+Obviously ``weight<74`` does not work for the list, To run it change the data to the [array](https://saeidamiri1.github.io/myblog/numpy/2019/10/22/data-structure) provided in Numpy:  
 
 ```
 >>> weight=np.array(weight)

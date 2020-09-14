@@ -19,7 +19,7 @@ tagline: Python
 
       <p>
       {{ post.excerpt }}
-      <a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}">Continue reading...</a>
+      <a class="btn btn-default" href="{{ post.url | prepend: BASE_PATH }}"> Read more...</a>
       </p>
 
     {% endfor %}

@@ -15,7 +15,7 @@
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
-  color: #f22430;
+  color: #246cf2;
 }
 #footer {
   background-color: transparent /* #fdcd60; */
@@ -61,10 +61,10 @@ h1, h2, h3, h4 {
   padding: 3px 6px;
   margin: 2px;
   background: #eee;
-  color: #555;
+  color: rgb(73, 73, 73);
   border-radius: 3px;
   text-decoration: none;
-  border: 1px dashed #cccccc; }
+  border: 1px dashed #553838; }
 
 .tag_box a span {
   vertical-align: super;
@@ -108,7 +108,6 @@ img {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 3px;
-  
   @include mobile {
     float: none;
     display: block;
